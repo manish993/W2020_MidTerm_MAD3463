@@ -23,7 +23,8 @@ public class C0771915Main {
         if(rev == null)
         {
             System.out.println("Function returns NULL value");
-        }else {
+        }else
+            {
             System.out.println("Output : " + rev);
         }
         

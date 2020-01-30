@@ -14,8 +14,13 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
-
-        return null;
+        char[] string=s.toCharArray();
+        char[] result=new char[string.length];
+        for(int i=string.length;i<0;i++)
+        {
+            result[i]=string[i];
+        }
+        return result;
     }
     
     //2 - FORMAT INITIALS OF STRING
@@ -34,12 +39,14 @@ public class LambtonStringTools
     //4 - CONVERT BINARY NUMBER TO DECIMALS
     public static int binaryToDecimal(String s) 
     {
-       return 0;
+        float result=0;
+        char[] num=s.toCharArray();
+
     }
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
-        ;
+
     }
 }
