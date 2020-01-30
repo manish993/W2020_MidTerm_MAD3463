@@ -41,6 +41,11 @@ public class LambtonStringTools
     {
         float result=0;
         char[] num=s.toCharArray();
+        int power=1;
+        for(int i=num.length-1;i>0;i--)
+        {
+
+        }
 
     }
      
